@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111; /* Netflix-like dark background */
+  color: white; /* Default text color */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Font family */
+}
+
+.app {
+  max-width: 100vw; /* Full viewport width */
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+a {
+  text-decoration: none; /* Remove link underlines */
+  color: inherit; /* Inherit text color */
+}
+
+button {
+  cursor: pointer; /* Pointer cursor on buttons */
+}

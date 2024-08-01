@@ -1,0 +1,89 @@
+
+
+/*   
+  .row {
+    margin-left: 20px;
+  }
+  
+  .row_posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+  }
+  
+  .row_posters::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .row_poster {
+    object-fit: contain;
+    width: 100%;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+  }
+  
+  .row_poster:hover {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+  
+  .row_posterLarge {
+    max-height: 250px;
+  }
+  
+  .row_posterLarge:hover {
+    transform: scale(1.09);
+    opacity: 1;
+  }
+   */
+
+
+   
+
+/* Styles for the Row component's movie posters */
+.row_poster {
+  width: 100%; /* Fill the available width within the container */
+  object-fit: contain; /* Maintain aspect ratio, scaling within container */
+  max-height: 100px; /* Set a maximum height for smaller posters */
+  transition: transform 450ms; /* Smooth transition on hover */
+  margin-right: 10px; /* Add spacing between posters */
+}
+
+/* Styles for the container holding the movie posters */
+.row_posters {
+  display: flex; /* Arrange posters horizontally */
+  overflow-y: hidden; /* Hide vertical scrollbar if content fits */
+  overflow-x: scroll; /* Enable horizontal scrolling for overflow */
+  padding: 20px; /* Add padding around the posters */
+}
+
+
+
+
+/* Hide the default web browser scrollbar for a cleaner look */
+.row_posters::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, etc. */
+}
+
+/* Style for hover effect on movie posters */
+.row_poster:hover {
+  transform: scale(1.08); /* Slightly enlarge poster on hover */
+}
+
+/* Styles for large-sized movie posters (optional) */
+.row_posterLarge {
+  max-height: 250px; /* Set a maximum height for larger posters */
+}
+
+/* Additional hover effect for large posters (optional) */
+.row_posterLarge:hover {
+  transform: scale(1.09); /* Slightly larger scale on hover for emphasis */
+}
+
+/* Styles for the Row component itself */
+.row {
+  margin-left: 20px; /* Add left margin for spacing */
+  color: white; /* Set text color to white (assuming light background) */
+}

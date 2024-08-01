@@ -1,0 +1,44 @@
+.footer_outer_container {
+  width: 100%;
+  background-color: #111; /* Netflix-like dark background */
+  padding: 40px 20px; /* Add padding */
+  color: #fff; /* Text color */
+}
+
+.footer_inner_container {
+  max-width: 1200px; /* Limit width */
+  margin: 0 auto; /* Center align */
+  text-align: center; /* Center text */
+}
+
+.footer_icons {
+  display: flex;
+  justify-content: center; /* Center icons */
+  margin-bottom: 20px; /* Space below icons */
+}
+
+.footer_data {
+  display: flex;
+  justify-content: space-around; /* Space around sections */
+  flex-wrap: wrap; /* Wrap items on smaller screens */
+  gap: 20px; /* Space between sections */
+}
+
+.footer_data ul {
+  list-style: none; /* Remove list style */
+}
+
+.footer_data li {
+  margin-bottom: 10px; /* Space below items */
+  cursor: pointer;
+  transition: color 0.3s ease; /* Transition effect for hover */
+}
+
+.footer_data li:hover {
+  color: #e50914; /* Netflix red on hover */
+}
+
+.service-code,
+.copy-write {
+  margin-top: 20px; /* Space above */
+}
